@@ -5,6 +5,7 @@ body {
 
 .container {
   padding: 5% 10%;
+  text-align: center;
 }
 
 img {
@@ -22,6 +23,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 nav li {
@@ -48,7 +50,7 @@ header {
 header h1 span {
   color: darkblue;
   font-family: 'Pacifico', cursive;
-  font-size: 70px;
+  font-size: 90px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -59,35 +61,26 @@ header h1 span:hover {
 
 /* about me section */
 .about {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: cornflowerblue;
-
-}
-.about h1 {
-  width: 50%;
+  background: url('../images/stars.png'), linear-gradient(#eb01a5, #d13531);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* my skills section */
-.skills {
-  /* background-color: black; */
-}
-
 .skills ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-between;
+  align-items: center;
   padding-left: 0px;
 }
 .skills li {
   text-align: center;
   background-color: paleturquoise;
   font-size: 35px;
-  /* border: paleturquoise 3px solid; */
-  padding: 5%;
+  padding: 3%;
   margin: 1%;
-  -webkit-box-shadow: 20px 20px 1px 2px rgba(255,214,255,1);
-  -moz-box-shadow: 20px 20px 1px 2px rgba(255,214,255,1);
   box-shadow: 20px 20px 1px 2px rgba(255,214,255,1);
 }
 
@@ -95,8 +88,20 @@ header h1 span:hover {
 .work {
   background-color:#9AB5D6;
 }
+.work .work-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
 
 /* footer */
-footer {
-  
+
+footer .svg-inline--fa {
+  font-size: 65px;
+  color: salmon;
+}
+
+footer .svg-inline--fa:hover {
+  color: aquamarine;
 }
