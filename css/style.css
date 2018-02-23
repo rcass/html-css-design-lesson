@@ -20,20 +20,24 @@ h1 {
 nav {
   background-color: white;
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+
 nav li {
   padding: 10px 30px;
 }
+
 nav a {
   color: darkblue;
   text-transform: uppercase;
   text-decoration: none;
 }
+
 nav a:hover {
   color: deepskyblue;
   text-decoration: line-through;
@@ -75,6 +79,7 @@ header h1 span:hover {
   align-items: center;
   padding-left: 0px;
 }
+
 .skills li {
   text-align: center;
   background-color: paleturquoise;
@@ -86,8 +91,9 @@ header h1 span:hover {
 
 /* my work  */
 .work {
-  background-color:#9AB5D6;
+  background-color:#BDD5FF;
 }
+
 .work .work-items {
   display: flex;
   justify-content: space-between;
@@ -96,6 +102,10 @@ header h1 span:hover {
 }
 
 /* footer */
+.social {
+  display: flex;
+  justify-content: space-around;
+}
 
 footer .svg-inline--fa {
   font-size: 65px;
@@ -103,5 +113,5 @@ footer .svg-inline--fa {
 }
 
 footer .svg-inline--fa:hover {
-  color: aquamarine;
+  color: #3C778A;
 }
